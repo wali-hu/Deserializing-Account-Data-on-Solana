@@ -3,7 +3,7 @@ import { RawMint, MintLayout } from "./types.js";
 
 async function deserializeMint() {
   const rpc =
-    "https://rpc.helius.xyz/?api-key=f39bc572-c304-417a-bf80-edcf8f32caf1";
+    "https://rpc.helius.xyz/?api-key=YOUR_API_KEY";
   const connection = new Connection(rpc);
   const mint = new PublicKey("6MWfAt3S9Xu4ybxxgPm6e4LSwuXfyAwGXd5yfUqpox9K");
 
